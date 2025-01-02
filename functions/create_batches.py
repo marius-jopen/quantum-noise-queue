@@ -3,7 +3,7 @@ import os
 import json
 
 # Configuration variables
-BATCH_SUFFIX = "_batch_2"  # Change this to whatever you want, e.g., "_marius" or "_test_v2"
+BATCH_SUFFIX = "_batch_3"  # Change this to whatever you want, e.g., "_marius" or "_test_v2"
 
 def copy_and_modify_file():
     # Define source and destination paths
