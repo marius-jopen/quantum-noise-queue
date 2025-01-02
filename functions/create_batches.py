@@ -7,7 +7,7 @@ BATCH_SUFFIX = "_batch_4"  # Change this to whatever you want, e.g., "_marius" o
 
 def copy_and_modify_file():
     # Define source and destination paths
-    source_file = os.path.join("..", "input-deforum", "example-v2.txt")
+    source_file = os.path.join("..", "input-deforum", "example-v4.txt")
     base_folder = os.path.join("..", "batches")
     # Create subfolder name by removing the leading underscore if it exists
     subfolder_name = BATCH_SUFFIX.lstrip('_')
