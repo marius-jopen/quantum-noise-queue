@@ -3,11 +3,11 @@ import os
 import json
 
 # Configuration variables
-BATCH_SUFFIX = "_batch_4"  # Change this to whatever you want, e.g., "_marius" or "_test_v2"
+BATCH_SUFFIX = "_batch_5"  # Change this to whatever you want, e.g., "_marius" or "_test_v2"
 
 def copy_and_modify_file():
     # Define source and destination paths
-    source_file = os.path.join("..", "input-deforum", "example-v4.txt")
+    source_file = os.path.join("..", "input-deforum", "example-v5.txt")
     base_folder = os.path.join("..", "batches")
     # Create subfolder name by removing the leading underscore if it exists
     subfolder_name = BATCH_SUFFIX.lstrip('_')
