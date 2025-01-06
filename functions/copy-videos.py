@@ -4,7 +4,7 @@ from pathlib import Path
 
 def copy_videos():
     # Source and destination directories
-    source_dir = r"E:\stable-diffusion\output\stable-diffusion-webui-qn\generated\default"
+    source_dir = r"E:\stable-diffusion\output\stable-diffusion-webui-qn\selected-videos-2"
     dest_dir = r"G:\My Drive\marius-jopen\work\clients\art-camp\work\quantum-noise\output\selected-videos-2"
 
     # Ensure destination directory exists
